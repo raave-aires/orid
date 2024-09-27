@@ -48,6 +48,7 @@ export default function Formulario() {
             className="max-w-64"
             label="E-mail"
             
+            isRequired={true}
             isInvalid={
               getIn(touched, "email") &&
               getIn(errors, "email")
